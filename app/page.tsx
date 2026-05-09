@@ -18,24 +18,24 @@ export default function Home() {
           </span>
         </nav>
 
-        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <div className="max-w-2xl">
+        <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
+          <div className="max-w-lg pt-3">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-300">
               AI-assisted code review
             </p>
-            <h1 className="mt-5 text-4xl font-semibold leading-tight text-zinc-50 sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 text-3xl font-semibold leading-tight text-zinc-50 sm:text-4xl lg:text-5xl">
               Find bugs, security risks, and cleaner code paths before review.
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-8 text-zinc-400 sm:text-lg">
+            <p className="mt-5 max-w-md text-sm leading-7 text-zinc-400 sm:text-base">
               Paste a snippet, choose the language, and prepare it for an AI
               review focused on correctness, security, performance, and
               maintainability.
             </p>
-            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+            <div className="mt-7 grid gap-2 sm:grid-cols-3 lg:grid-cols-1">
               {["Bug detection", "Security notes", "Improved code"].map(
                 (item) => (
                   <div
-                    className="rounded-lg border border-zinc-800 bg-zinc-950 px-4 py-3 text-sm text-zinc-300"
+                    className="rounded-lg border border-zinc-800 bg-zinc-950/80 px-3 py-2 text-sm text-zinc-300"
                     key={item}
                   >
                     {item}
